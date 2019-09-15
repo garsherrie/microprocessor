@@ -1,0 +1,7 @@
+;how to perform addition
+;in this case the value of register B is added to the value of register A (ACCUMULATOR) to get the new value of A
+MVI A, 04H
+MVI B, 03H
+MVI C, 02H
+ADD B;
+hlt
